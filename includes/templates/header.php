@@ -67,8 +67,8 @@
             </div>
             <nav class="navegacion-principal clearfix">
                 <a href="conferencia.php">Conferencia</a>
-                <a href="">Calendario</a>
-                <a href="">Invitados</a>
+                <a href="calendario.php">Calendario</a>
+                <a href="invitados.php">Invitados</a>
                 <a href="registro.php">Reservaciones</a>
             </nav>
         </div>
