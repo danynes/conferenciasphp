@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">

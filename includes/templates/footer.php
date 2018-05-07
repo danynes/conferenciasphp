@@ -39,6 +39,7 @@
 <script src="js/jquery.animateNumber.min.js"></script>
 <script src="js/jquery.countdown.min.js"></script>
 <script src="js/jquery.lettering.js"></script>
+<script src="js/lightbox.js"></script>
 <script src="js/main.js"></script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbdMCQvOHpcu7DjPXXgRZ4W-tI3zjPOaU&callback=initMap" async defer></script>
