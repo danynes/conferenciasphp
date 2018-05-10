@@ -1,5 +1,6 @@
 <?php
-  $conn = new mysqli('localhost', 'root', 'root', 'web_cancun');
+  $conn = new mysqli('localhost', 'root', 'root', 'cancun_web');
+
   if ($conn->connect_error) {
     echo $error -> $conn->connect_error;
   }

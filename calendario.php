@@ -9,30 +9,29 @@
     <section class="seccion contenedor">
     <h2>Calendario de Eventos</h2>
 
-    <?php
 
-    try {
-      require_once('includes/funciones/bd_conexion.php');
-      $sql ="SELECT * FROM evento";
-      $resultado = $conn -> query($sql);
-    } catch (\Exception $e) {
-      echo $e->getMessage();
-    }
+        <?php
 
-    ?>
-    <div class="calendario">
-      <?php
-       $evento = $resultado-> fetch_assoc();
+              try {
+                require_once('includes/funciones/bd_conexion.php');
+                $sql ="SELECT * FROM eventos";
+                $resultado = $conn->query($sql);
+              } catch (\Exception $e) {
+                echo $e->getMessage();
+              }
 
-       ?>
-       <pre>
-            <?php var_dump($evento); ?>
-       </pre>
-
-    </div>
-    <?php
-        $conn->close();
-     ?>
+        ?>
+        <div class="calendario">
+            <?php
+              $eventos = $resultado->fetch_assoc();
+             ?>
+             <pre>
+                  <?php var_dump($eventos); ?>
+             </pre>
+        </div>
+            <?php
+                $conn->close();
+             ?>
 
 
     </section>
